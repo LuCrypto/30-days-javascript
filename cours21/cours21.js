@@ -1,7 +1,8 @@
-const firstTitle = document.getElementById('first-title')
+const allTitles = document.getElementsByTagName('h1')
 
-console.log(firstTitle)
-console.log(firstTitle.nodeValue)
-console.log(firstTitle.innerHTML)
+console.log(allTitles) // HTMLCollections
+console.log(allTitles.length) // 4
 
-
+for (let i = 0; i < allTitles.length; i++) {
+  console.log(allTitles[i]) // prints each elements in the HTMLCollection
+}

@@ -1,3 +1,3 @@
-const {Coutries} = require('./countries.js');
+const { Coutries } = require('./countries.js')
 
-console.log("Main : ", Coutries);
+console.log('Main : ', Coutries)

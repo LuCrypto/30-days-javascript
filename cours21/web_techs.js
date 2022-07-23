@@ -1,1 +1,1 @@
-let web_techs = ['HTML', 'JS', 'CSS', 'WEB3']
+const web_techs = ['HTML', 'JS', 'CSS', 'WEB3']

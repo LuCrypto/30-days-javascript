@@ -1,6 +1,7 @@
 # 30 days javascript
 
 30 days javascript
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
 
 ## Getting started
 
