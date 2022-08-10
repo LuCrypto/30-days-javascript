@@ -1,0 +1,58 @@
+html {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.myMainContainer {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#myMainContainer2 {
+    width: 90%;
+}
+
+#title {
+    text-align: center;
+    font-size: 4rem;
+}
+
+#divInput {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#divInput input, #divInput button {
+    width: 50%;
+    height: 4.5rem;
+    border: 1px solid rgb(229, 201, 197);
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+#divInput button {
+    background-color: rgb(229, 201, 197);
+    color: white;
+}
+
+#divPlayers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#divPlayers div {
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 8rem;
+}

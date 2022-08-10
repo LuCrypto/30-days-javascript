@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Multiple External Scripts</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+
+    <div id="myMainContainer">
+        <div id="title">
+            <p>
+                <span id="worldCountries"> World Countries Data </span> <br />
+                Currently, we have <span id="numberCountries"> ? </span> countries <br />
+                <span id="satisfaction"> <span id="numberSatisfaction"> </span> countries satisfied the search criteria
+                </span>
+            </p>
+        </div>
+
+        <div id="search">
+            <input type="text" id="searchText" placeholder="Search countries by name, city and languages">
+            <div id="buttonSort">
+                <button id="buttonNameSort">
+                    Name
+                </button>
+                <button id="buttonCapitalSort">
+                    Capital
+                </button>
+                <button id="buttonPopulationSort">
+                    Population
+                </button>
+                <button id="specialButton">
+                    <img src="images/graphic.png" alt="flag">
+                </button>
+            </div>
+        </div>
+
+        <div id="countriesCityLanguages">
+        </div>
+    </div>
+
+    <script type="module" src="./cours30-2.js"></script>
+</body>
+
+</html>

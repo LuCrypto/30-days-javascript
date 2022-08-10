@@ -1,0 +1,130 @@
+html, body {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Force to extend the page for the height of the window */
+html, body {
+    height:100%;
+}
+
+#myMainContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 3rem;
+}
+
+#title {
+    background-color: #f0f0f0;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#title p {
+    font-size: 1.5rem;
+}
+
+#worldCountries {
+    color: orange;
+    font-size: 4rem;
+}
+
+#search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#searchText {
+    width: 45%;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    border: 1px solid #f0f0f0;
+    padding: 0.5rem;
+}
+
+#searchText::-webkit-input-placeholder {
+    color: #949494;
+}
+
+/* when we click on input, the border is darkest */
+#searchText:focus {
+    border: 1px solid #7a7a7a;
+    outline: none;
+}
+
+#buttonSort {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+#buttonSort button {
+    background-color: orange;
+    text-align: center;
+
+    border: none;
+    border-radius: 2rem;
+
+    margin-right: 1rem;
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+#buttonSort button:last-child {
+    padding: 0;
+    /* margin: 0; */
+    border: none;
+    background-color: none;
+    border: none;
+    border-radius: 0;
+}
+
+#buttonSort button:last-child img {
+    /* image can't become more big than other buttons */
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+#countriesCityLanguages {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: #f0f0f0;
+    
+    font-size: 1.75rem;
+    width: 100%;
+}
+
+.divCountry {
+    border: 1px solid #f0f0f0;
+    padding: 1rem;
+    margin: 1rem;
+
+    line-height: 0.1rem;
+
+    width: 17rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+}
+
+#satisfaction {
+    display: none;
+    color: orange;
+}

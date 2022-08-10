@@ -1,0 +1,23 @@
+{
+  "name": "30daysofjs",
+  "version": "1.0.0",
+  "description": "30 days javascript\r [![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/m8078/30-days-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/m8078/30-days-javascript/issues"
+  },
+  "homepage": "https://gitlab.com/m8078/30-days-javascript#readme",
+  "dependencies": {
+    "eslint-config-standard": "^17.0.0"
+  }
+}

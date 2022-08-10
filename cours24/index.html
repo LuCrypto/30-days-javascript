@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Multiple External Scripts</title>
+</head>
+
+<body>
+
+    <div class="myContainer">
+        <h1 style="color: white"> Calculate a weight of an object on a planet</h1>
+
+        <div style="width: 100%; display: flex; justify-content: center;">
+            <input style="width: 10%; height: 30px; margin-right: 10px;" type="text" id="weight"
+                placeholder="Mass in kilogram">
+            <select id="selectPlanet" style="margin-right: 10px" id="planet" aria-placeholder="--select planet--">
+                <option value="earth">Earth</option>
+                <option value="mars">Mars</option>
+                <option value="jupiter">Jupiter</option>
+                <option value="saturn">Saturn</option>
+                <option value="uranus">Uranus</option>
+                <option value="neptune">Neptune</option>
+            </select>
+            <button id="calculate">Calculate weight</button>
+        </div>
+
+        <div style="background-color: gray; opacity: 60%; margin-top: 10px; display: flex; align-items: center; padding: 20px;"
+            id='displayPlanet'>
+            <div>
+                <img id='imagePlanet' src="images/earth.png" />
+            </div>
+
+            <div
+                style="display:flex; align-items:center; flex-direction:column; background-color: gray; opacity: 60%; margin-left: 10px;">
+                <p style="color: white; font-weight: bold;"> The weight of the object on
+                    <span id="planetName"> </span>
+                </p>
+                <p id='weightResult' style="color:white; font-weight: bold;"> 300 </p>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./cours24.js"></script>
+</body>
+
+</html>

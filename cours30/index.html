@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Multiple External Scripts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="myMainContainer">
+        <!-- Formulaire -->
+        <form>
+            <h2 style="text-align: center;"> Validating Web Forms </h1>
+                <label for="firstName"> First Name </label>
+                <input type="text" id="inputFirstName" name="firstName" placeholder="Enter your first name">
+                <p id='errorFirstName'> </p>
+
+                <label for="lastName"> Last Name </label>
+                <input type="text" id="inputLastName" name="lastName" placeholder="Enter your last name">
+                <p id='errorLastName'> </p>
+
+                <label for="email"> Email </label>
+                <input type="text" id="inputEmail" name="email" placeholder="Enter your email">
+                <p id='errorMail'> </p>
+
+                <label for="password"> Password </label>
+                <input type="password" id="inputPassword" name="password" placeholder="Enter password">
+                <p id='errorPassword'> </p>
+
+                <label for="telephone"> Telephone </label>
+                <input type="text" id="inputTelephone" name="telephone" placeholder="Enter your number">
+                <p id='errorTelephone'> </p>
+
+                <label for="bio"> Your bio </label>
+                <textarea id="inputBio" name="bio" placeholder="Enter your bio"></textarea>
+                <p id='errorBio'> </p>
+
+                <input id='boutonSubmit' type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script type="module" src="./cours30.js"></script>
+</body>
+
+</html>
